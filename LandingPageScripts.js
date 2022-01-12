@@ -18,15 +18,6 @@ zenButton.onmouseout = function() {
     body.style.backgroundColor = 'black';
 }
 
-var javaButton = document.getElementById('java-project');
-javaButton.onmouseover = function() {
-  body.style.backgroundColor = '#845e3a';
-}
-
-javaButton.onmouseout = function() {
-    body.style.backgroundColor = 'black';
-}
-
 var finalButton = document.getElementById('final-project');
 finalButton.onmouseover = function() {
   body.style.backgroundColor = '#dbea13';
