@@ -1,11 +1,7 @@
 /* css Zen Garden default style v1.02 */
 /* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
 
-/* This file based on 'Tranquille' by Dave Shea */
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
-/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
-
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+/* Author: Zack Heath */
 
 @font-face {
 	font-family: quantum;
@@ -39,8 +35,8 @@
 
 /* basic elements */
 html {
-	margin: 0;
-	padding: 0;
+	margin-top: -15px;
+	padding: 0px;
 	}
 body { 
 	font: 75% equinox, sans-serif;
@@ -172,7 +168,7 @@ header {
 	
 
 	clear: both; 
-	margin-bottom: 200vh;
+	margin-bottom: 500px;
 	margin-right: -150px;
 	float: left; 
 	}
@@ -194,6 +190,7 @@ header {
 footer { 
 	margin-top: 50px;
 	margin-right: 150px;
+	margin-bottom: -100px;
 	text-align: center; 
 	font-size: large;
 	}
